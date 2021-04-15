@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1f2833;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
+img {
+  height: 50px;
+  margin-right: 50px;
+}
+
+.content {
+  padding: 10rem;
+}
+.text,
+.web {
+  text-align: center;
+  color: #c5c6c7;
+}
+.text h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.text h1 span {
+  color: #45f5c0;
+  font-size: 5rem;
+}
+.text h3 {
+  font-size: 2rem;
+  padding: 5px;
+  font-weight: 400;
+}
+.web {
+  font-size: 1.4rem;
+  margin: 30px 0;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.cv,
+.github,
+.twitter {
+  padding: 10px;
+  margin: 10px 30px;
+}
+.cv:hover,
+.github:hover,
+.twitter:hover {
+  background-color: #0a523c;
+}
+.cv img,
+.github img,
+.twitter img {
+  margin-right: 8px;
+  height: 30px;
+}
+.cv a,
+.github a,
+.twitter a {
+  text-decoration: none;
+}
+.icons a span {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #c5c6c7;
+}
+
+footer {
+  padding: 1rem 0.5rem;
+  background-color: #1f2833;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+h5 {
+  text-align: center;
+  color: #c5c6c7;
+  font-size: 15px;
+}
+
+@media (max-width: 375px) {
+  .content {
+    padding: 0.8rem 0;
+  }
+  .text h1 span {
+    font-size: 3rem;
+  }
+  .icons {
+    margin: 0;
+  }
+  .github,
+  .twitter {
+    padding: 10px;
+    margin: 2px;
+  }
+}
